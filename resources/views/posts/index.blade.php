@@ -14,6 +14,8 @@
                 <div class='post'>
                     <h2 class='title'>
                        <a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
+                       <a href="">{{ $post->category->name }}</a>
+                       <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
                     </h2>
                     <p class='body'>{{ $post->body }}</p>
                     <form action="/posts/{{ $post->id }}" id="form_{{ $post->id }}" method="post">
