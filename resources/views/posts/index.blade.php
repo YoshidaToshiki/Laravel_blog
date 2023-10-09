@@ -38,5 +38,21 @@
             }
         }
         </script>
+        <x-app-layout>
+           <x-slot name="header">
+        　（index)
+           </x-slot>
+           Blog Name!<br>
+           [crete]<br>
+           title1<br>
+           body1<br>
+           delete<br>
+           <br>
+           title2<br>
+           body2<br>
+           delete<br>
+           <br>
+           ログインユーザー：{{ Auth::user()->name }}
+        </x-app-layout>
     </body>
 </html>

@@ -16,4 +16,10 @@
             <input type="submit" value="保存">
         </form>
     </div>
+    <x-app-layout>
+         <x-slot name="header">
+        　（ヘッダー名）
+         </x-slot>
+           (各ブレードファイルの中身)
+    </x-app-layout>
 </body>

@@ -23,5 +23,11 @@
         <div class="footer">
             <a href="/">戻る</a>
         </div>
+        <x-app-layout>
+           <x-slot name="header">
+        　   （ヘッダー名）
+            </x-slot>
+              (各ブレードファイルの中身)
+        </x-app-layout>
     </body>
 </html>
